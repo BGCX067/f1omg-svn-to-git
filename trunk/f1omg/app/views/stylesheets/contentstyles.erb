@@ -1,0 +1,100 @@
+
+.f1omg_contenttable {
+	width: 100%;
+	border: 0px solid grey;
+	border-spacing: 0px;
+	border-collapse: separate;
+}
+
+
+.f1omg_contenttable tr td {
+	border: 0px solid grey;
+	vertical-align: top;
+	padding: 10px;
+}
+
+.f1omg_datatable {
+	width: 100%;
+	border: 0px solid grey;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	color: <%= @main_color %>;
+	font-size: 12px;
+}
+
+.f1omg_datatable tr td {
+	border: 0px solid grey;
+	padding: 2px;
+	padding-left: 6px;
+	margin: 0px;
+}
+
+.f1omg_datatable tr td input{
+	border: 0px solid grey;
+	color: <%= @main_color %>;
+    
+}
+
+tr.f1omg_th {
+	border-bottom: 0px solid <%= @main_color %>;
+	font-weight: bold;
+}
+ 
+hr.f1omg_hr {
+	color: <%= @main_color %>;
+	background-color: <%= @main_color %>;
+	height: 1px;
+	border: 0px solid black;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 10px;
+	margin-top: 1px;
+}
+
+h4.f1omg {
+	color: <%= @main_color %>;
+	padding: 0px;
+	padding-left: 10px;
+	margin: 0px;
+}
+
+tr.f1omg_highlighted {
+	font-weights: bold;
+	border: 0px solid <%= @main_color %>;
+	background-color: <%= @highlight_color %>;
+	
+}
+
+div.f1omg_alignedright {
+    text-align: right;
+}
+
+select.f1omg_select {
+	font-family: <%= @main_font %>;
+	border: 0px solid white;
+	color: <%= @main_color %>;
+    font-size: 11px;    
+}
+
+div.f1omg_select {
+	border: 1px solid <%= @main_color %>;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    display: none;
+}
+
+div.f1omg_select ul li a {
+	font-family: <%= @main_font %>;
+    font-size: 11px;    
+	color: <%= @main_color %>;
+}
+
+ul.f1omg_dropdown {
+    list-style-type: none;
+    margin: 0px;
+    padding: 5px;
+    marker-offset: 0px;
+    list-style-position: outside;
+}
